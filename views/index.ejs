@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<% include head.html %>
+
+<body>
+  <% include header.html %>
+  <!-- The Modal -->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Send us query</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="#">
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp"
+                placeholder="Enter Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="exampleInputText" aria-describedby="textHelp"
+                placeholder="Enter Subject">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="button" class="btn btn-primary btn-lg btn-block">Send</button>
+            </div>
+
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!--   H E R O   S E C T I O N   S T A R T S     -->
+  <div class="hero">
+    <div class="hero-overlay">
+      <div class="container">
+        <div class="hero-top">
+          <h2>We help your business grow!</h2>
+          <p>
+            Consider us 'McKinsey' for Startups & SMBs! Built to help Startups and Businesses
+            looking for a Digital Transformation. From launching a new business to digitizing,
+            streamlining or scaling an existing setup.
+          </p>
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">GET IN TOUCH
+            NOW</button>
+        </div>
+        <div class="hero-bottom">
+          <div class="row">
+            <div class="col-sm hero-feature hero-feature-one">
+              <p><b>DIGITAL LAB</b></p>
+              <p>Bespoke Design, Development, Consulting, Sales and Marketing you need to scale.</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="col-sm hero-feature hero-feature-one">
+              <p><strong>DIGITAL LAB</strong></p>
+              <p>Bespoke Design, Development, Consulting, Sales and Marketing you need to scale.</p>
+              <a href="#">Learn More</a>
+            </div>
+            <div class="col-sm hero-feature hero-feature-one">
+              <p><strong>DIGITAL LAB</strong></p>
+              <p>Bespoke Design, Development, Consulting, Sales and Marketing you need to scale.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--   H E R O   S E C T I O N   E N D S     -->
+
+
+  <!--   FEATURES    -->
+
+  <!--   C O N T E N T   S T A R T S    -->
+  <div class="container">
+    <div class="content">
+      <div class="content-one">
+        <h2>Welcome to The PMO Consultants</h2>
+        <div class="content-one-p">
+          <p>
+            Stuart is the founder and partner of a PMO Consultancy, ThePMOConsultants.com.
+            Stuart is a professional PMO with over 20 years of Programme, Portfolio,
+            Transformation and Head of ePMO experience.
+          </p>
+          <p>
+            Stuart works with clients to define or refine their PMO capabilities, which
+            means understanding where an organisation or department is on their maturity
+            lifecycle and implementing the appropriate tools, template, guidelines,
+            framework and standards.
+          </p>
+          <p>
+            Iris is also a partner in ThePMOConsultants.com and has 12 years of
+            experience as a professional PMO supporting project, programme and
+            transformation delivery.
+          </p>
+          <p>
+            Iris is friendly, organised and efficient PMO with a knack for keeping calm
+            in the most hectic and challenging of environments and most importantly
+            ‘keeping PM’s honest’.
+          </p>
+        </div>
+      </div>
+      <div class="content-two services-we-provide">
+        <h3>Services we provide</h3>
+        <div class="row">
+          <div class="col-sm service service-one">
+            <img src="images/designDevelopment.png" alt="Design Development">
+            <p>Design & Development</p>
+          </div>
+          <div class="col-sm service service-one">
+            <img src="images/socialMedia.png" alt="Social Marketing">
+            <p>Digital Marketing</p>
+          </div>
+          <div class="col-sm service service-one">
+            <img src="images/consulting.svg" alt="Consulting">
+            <p>Consulting Services</p>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--   C O N T E N T   E N D S    -->
+
+
+
+  <% include footer.html %>
+</body>
+
+</html>
